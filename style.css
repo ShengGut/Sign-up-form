@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf)
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#background {
+   max-width: 100%;
+   max-height: 90vh;
+}
+
+#outline {
+    max-width: 5vw;
+    max-height: auto;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.overlays {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5vw;
+    background: rgba(25, 25, 25, .5);
+    min-width: 100%;
+
+}
+
+div .banner {
+    font-size: 6em;
+    font-family: Norse-Bold, sans-serif;
+}
+
+.form-header  {
+    border: 2px solid red;
+    margin-top: -600px;
+    display:flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    font-size: 1.5em;
+    height: 50%;
+    width: 28%;
+}
+
+.form {
+    background-color: rgb(45,45,45);
+    display:flex;
+    flex-flow: row wrap;
+    width: 30%;
+    height: 50%;
+    margin-left: -700px;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* input,
+label {
+    display:flex;
+    flex-direction: column;
+    margin: 10px 50px 10px 50px;
+} */
