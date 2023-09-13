@@ -7,45 +7,51 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-        <div class="wrapper">
+<div class="container">
+        <div class="container__wrapper">
             <img src="./images/background.webp" id="background" alt="">
             <div class="overlays">
                 <img src="./images/odin-outline.png" id="outline" alt="">
                 <h1 class="banner">ODIN</h1>
             </div>
         </div>
-
+    <div class="container__text">
     <header class="form-header">
         <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</p>
     </header>
-
     <form action="" method="get" class="form">
-        <div class="form-row">
-            <label for="first-name ">FIRST NAME</label>
-            <input type="text" name="first-name" id="first-name">
-        </div>
-        <div class="form-row">
-            <label for="last-name ">LAST NAME</label>
-            <input type="text" name="last-name" id="last-name">
-        </div>
-        <div class="form-row">
-            <label for="email ">EMAIL</label>
-            <input type="email" name="email" id="email">
-        </div>
-        <div class="form-row">
-            <label for="phone-number ">PHONE NUMBER</label>
-            <input type="number" name="phone-number" id="phone-number">
-        </div>
-        <div class="form-row">
-            <label for="password ">PASSWORD</label>
-            <input type="password" name="password" id="password">
-        </div>
-        <div class="form-row">
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm-password" id="confirm-password">
+        <p>Let's do this!</p>
+
+        <div class="form__fields">
+            <div class="form-row">
+                <label for="first-name ">FIRST NAME</label>
+                <input type="text" name="first-name" id="first-name">
+            </div>
+            <div class="form-row">
+                <label for="last-name ">LAST NAME</label>
+                <input type="text" name="last-name" id="last-name">
+            </div>
+            <div class="form-row">
+                <label for="email ">EMAIL</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-row">
+                <label for="phone-number ">PHONE NUMBER</label>
+                <input type="number" name="phone-number" id="phone-number">
+            </div>
+            <div class="form-row">
+                <label for="password ">PASSWORD</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="form-row">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm-password" id="confirm-password">
+            </div>
         </div>
     </form>
     <button>Create Account</button>
+    <p class="existing-account">Already have an Account? <a href="">Log in</a></p>
+    </div>
+</div>
 </body>
 </html>
